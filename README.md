@@ -13,7 +13,7 @@ Learn how to install a package with npm on the following link or any other usefu
 
 # Jumping into code
 
-In this repository, initialize and install express package with npm byb doing the following;
+In this repository, initialize and install express package with npm by doing the following;
 - open your terminal in this croned repository
 and answer the default questions which will be asked when initializing npm
 ```bash
@@ -34,7 +34,7 @@ To begin with
 - cd into the src folder
 - In the folder src, create a file called index.js
 - install express package. Check this link for further read https://expressjs.com/en/starter/installing.html
-``bash
+```bash
   $npm install express --save
 ```
 # using express
@@ -43,7 +43,7 @@ open index.js file in your code editor, vscode or atom
 add the following lines of code to test express api routes
 
 index.js
-```node
+``` javascript
 const express = require('express')
 const app = express();
 
