@@ -82,14 +82,33 @@ Express available route read
    - https://www.tutorialspoint.com/expressjs/expressjs_routing.htm
    - https://www.tutorialspoint.com/expressjs/expressjs_http_methods.htm
    - https://www.tutorialspoint.com/expressjs/expressjs_url_building.htm
+   - https://www.tutorialspoint.com/expressjs/expressjs_url_building.htm
    
  # Assignment
  
- Read on express from the above provided links, practice and do this assignment.
- create the following end-points that return the following
+Read on express from the above provided links, practice and do this assignment.
+create the following end-points that return the following. In the src folder create a file called testExpress.js and add all the end points that yoiu will create.
  
- - create an array with size 10 of all the provinces in Zambia. This array should be accessed by all the routes that you will create.
- - Create a post api
+ - create an array called provinces of size 10 for all the provinces in Zambia. This array should be accessed by all the                routes that you will create.
+ 
+ - create a json array called countries with 10 objects having fields country name, country capital city and the type of people who live in that country.
+ 
+ - Create a Get Express API route ('/country/provinces') that return all the contents of the provinces array.
+ - Create another GET Express API route ('/countries') that will return the contents of the countries json array.
+ - Create a POST Express API route ('/countries/provinces') that adds a province to the provinces array
+ - Create a POST Express API route ('/countries') that adds a country json object with all the fields to countries json array object.
+ 
+ - Create a DELETE Express API route ('/delete/province') that deletes a province that is sent from the provinces array and returns the deleted province.
+ 
+ - Create a DELETE Express API route ('/delete/country') that deletes a country that has be sent from the countries json array object and returns the deleted country to the user.
+ 
+ - Create a PUT Express API ('/countries/edit') that returns the message "Iam tired man, I think I will edit this country nameOfCountryTOEdit later." to the user.
+ 
+                          USE POSTMAN TO TEST YOUR ROUTE END POINTS
+ 
+ 
+     Submit this assignment by commiting this repository with all the files index.js and testExpress.js
+ 
  
  
 
