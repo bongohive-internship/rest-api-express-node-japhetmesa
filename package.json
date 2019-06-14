@@ -1,0 +1,22 @@
+{
+  "name": "rest-api-express-node-japhetmesa",
+  "version": "1.0.0",
+  "description": "After interacting with bare Node JS, you will be introduced to writing restful APIs in Node JS with Express package.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongohive-internship/rest-api-express-node-japhetmesa.git"
+  },
+  "author": "Japhet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bongohive-internship/rest-api-express-node-japhetmesa/issues"
+  },
+  "homepage": "https://github.com/bongohive-internship/rest-api-express-node-japhetmesa#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
